@@ -23,6 +23,9 @@ jobs:
           paths:
             - node_modules
       - run:
+          name: Force theme download
+          command: git clone https://github.com/paulmarsicloud/hexo-theme-cactus themes/cactus
+      - run:
           name: Generate static website
           command: hexo generate
       - run:
