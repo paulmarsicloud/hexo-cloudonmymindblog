@@ -103,7 +103,9 @@ theme: cactus
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: aws-s3
+  bucket: www.thecloudonmymind.com
+  region: us-east-1
 
 theme_config:
   colorscheme: light
