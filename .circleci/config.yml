@@ -9,6 +9,9 @@ jobs:
       - run:
           name: Install Hexo CLI
           command: npm install -g hexo-cli
+      - run:
+          name: Install Hexo Deployer
+          command: npm install hexo-deployer-aws-s3 --save
       - restore_cache:
           keys:
             - npm-deps-{{ checksum "package.json" }}
@@ -29,7 +32,7 @@ jobs:
             apt-get install -y awscli
       - run:
           name: Push to S3 bucket
-          command: cd public/ && aws s3 sync . s3://www.thecloudonmymind.com
+          command: hexo deploy
 
 workflows:
     version: 2
