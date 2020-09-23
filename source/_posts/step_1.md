@@ -1,5 +1,5 @@
 ---
-title: Step 1 - How this blog was setup
+title: Step 1 / 3 - How this blog was setup with AWS
 date: 2020-09-21 14:28:16
 tags: 
 - aws
