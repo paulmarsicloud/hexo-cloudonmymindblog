@@ -29,7 +29,7 @@ Here's the steps I took to get the service rolling:
 * Setup an organization in Terraform Cloud and name it accordingly: I've chosen "thecloudonmymind" as the organization name in Terraform (super original, I know. . . )
 * For Workflow; I chose Version Control Workflow as I want any commits to git to push automatically to the remote terraform state
     * For hooking into GitHub - needed to authorize that sucka (disable your ad-blockers to streamline this step!)
-    * I then needed to choose a repo - forward planned this with the GitHub repo https://github.com/paulmarsicloud/terraform-cloudonmymindblog created earlier
+    * I then needed to choose a repo - forward planned this with the [GitHub repo](https://github.com/paulmarsicloud/terraform-cloudonmymindblog) created earlier
     * Took a quick spin through the "Configure settings" option - everything looked good, so I went ahead and confirmed to create my workspace
     * Terraform Cloud then checks to make sure everything is kosher, and when it is, you need to configure variables which will authorize Terraform Cloud to access your AWS account via the AWS Access Key ID and AWS Secret Access Key.
     > Note: never, ever, ever expose these keys in a GitHub repo or in the Terraform codebase itself.  It is easy to do so, but you essentially open up the world to accessing your AWS account at that point. . .not a good time.
