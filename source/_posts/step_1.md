@@ -1,5 +1,5 @@
 ---
-title: Step 0 - how this blog was setup
+title: Step 1 - how this blog was setup
 date: 2020-09-21 14:28:16
 ---
 
@@ -44,7 +44,7 @@ After deliberating on a domain name, I then had to purchase thecloudonmymind.com
 * Domain was in the pending status for about 30 mins, but after that it showed as registered:
 ![registered and owned](/images/registered_domain.png)
 
-### Recap
+## Recap
 * Setup a fresh IAM user in AWS - please don't use the root/master any more than need be!
 * Purchased the domain via Route 53
 * Accepted the _risk_ that the domain might cost more than $12.00 to renew in a years time; ok with the trade-off.
