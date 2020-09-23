@@ -54,4 +54,4 @@ After deliberating on a domain name, I then had to purchase thecloudonmymind.com
 * Purchased the domain via Route 53
 * Accepted the _risk_ that the domain might cost more than $12.00 to renew in a years time; ok with the trade-off.
 
-_Next Post_ : How the site infrastructure was setup using Terraform and GitHub!
+_Next Post_ : [How the site infrastructure was setup using Terraform and GitHub!](/step_2/)

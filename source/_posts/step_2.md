@@ -12,7 +12,7 @@ tags:
 This is post will outline the steps taken to setup the cloud infrastructure that will power this website!
 
 ## Harness the power of GitHub
-I needed a a fresh repo to house my terraform infrastructure code, so I set this up as `terraform-cloudonmymindblog`: https://github.com/paulmarsicloud/terraform-cloudonmymindblog
+I needed a a fresh repo to house my terraform infrastructure code, so I set this up as [terraform-cloudonmymindblog](https://github.com/paulmarsicloud/terraform-cloudonmymindblog)
 Some notes on GitHub repo'ing:
 * Definitely add a readme - there is an absolutely **brilliant** [article](https://tom.preston-werner.com/2010/08/23/readme-driven-development.html) about why readme's are important by none other than [Tom Preston-Werner](https://twitter.com/mojombo/) (_ya know. . .the co-founder of GitHub and all. . .no big deal_)
 * `.gitignore` file - definitely include this file, helps keep the repo clean
