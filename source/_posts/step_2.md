@@ -1,7 +1,7 @@
 ---
 title: Step 2 - Setting up Terraform and GitHub
 date: 2020-09-22 18:19:38
-tags: #aws #terraform #terraformcloud #github
+tags: aws, terraform, terraformcloud, github
 ---
 
 This is post will outline the steps taken to setup the cloud infrastructure that will power this website!
