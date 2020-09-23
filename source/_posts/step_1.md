@@ -1,6 +1,11 @@
 ---
-title: Step 1 - how this blog was setup
+title: Step 1 - How this blog was setup
 date: 2020-09-21 14:28:16
+tags: 
+- aws
+- iam
+- route53
+- domain
 ---
 
 In my firt official post, I thought it best to guide you through how this blog and site was setup from an idea to legit website.
