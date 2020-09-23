@@ -1,5 +1,5 @@
 ---
-title: Step 2 - Setting up Terraform and GitHub
+title: Step 2 / 3 - Setting up Terraform and GitHub
 date: 2020-09-22 18:19:38
 tags: 
 - aws
@@ -7,6 +7,8 @@ tags:
 - terraformcloud
 - github
 - iac
+- s3
+- route53
 ---
 
 This is post will outline the steps taken to setup the cloud infrastructure that will power this website!
@@ -45,4 +47,4 @@ Here's the steps I took to get the service rolling:
 * Terraform Cloud setup to plan/apply changes that make their way into the GitHub repo for IaC CI/CD
 * Terraform Cloud now has programmatic access to my AWS account - I am aware and ok with this being the case.
 
-_Next Post_ : Setting up Hexo and yet another GitHub repo to actually get the site live!
+_Next Post_ : [Setting up Hexo and yet another GitHub repo to actually get the site live!](/step_3)
