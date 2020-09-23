@@ -9,7 +9,7 @@ This is post will outline the steps taken to setup the cloud infrastructure that
 ## Harness the power of GitHub
 I needed a a fresh repo to house my terraform infrastructure code, so I set this up as `terraform-cloudonmymindblog`: https://github.com/paulmarsicloud/terraform-cloudonmymindblog
 Some notes on GitHub repo'ing:
-* Definitely add a readme - there is an absolutely **brilliant** article about why readme's are important by none other than [Tom Preston-Werner](https://twitter.com/mojombo/) : https://tom.preston-werner.com/2010/08/23/readme-driven-development.html (_ya know...the co-founder of GitHub and all...no big deal_)
+* Definitely add a readme - there is an absolutely **brilliant** [article](https://tom.preston-werner.com/2010/08/23/readme-driven-development.html) about why readme's are important by none other than [Tom Preston-Werner](https://twitter.com/mojombo/) (_ya know. . .the co-founder of GitHub and all. . .no big deal_)
 * `.gitignore` file - definitely include this file, helps keep the repo clean
 * Licensing! Things got interesting for me here. I had a quick gander through https://choosealicense.com/ and decided that the terraform repo in Git will be licensed with MIT (honestly; I am not re-inventing the wheel, and I am happy for folks to use the terraform code even without acknowledging/referencing me), and the git repo that will hold the blog content itself will be licensed with [CC BY 1.0](https://creativecommons.org/licenses/by/1.0/) - which means if someone finds a gold nugget post and wishes to copy it, they can at least acknowledge me.
 
