@@ -45,6 +45,7 @@ After reading this cool [artcile](https://hackernoon.com/build-a-serverless-prod
 > Note - like with Terraform Cloud, CircleCI has access to my AWS account.  I am aware of the risks that CircleCI or my account on CircleCI could become compromised, but it is a trade-off I am willing to make
 * Here's where things got interesting. . .The [`config.yml`](https://github.com/slow-coder/slowcoder.com/blob/master/.circleci/config.yml) here was erroring on upload to my S3 bucket with a `seek() takes 2 positional arguments but 3 were given` error.
     * This was amusing, and after a little bit of review, I decided to have CircleCI call run a **Hexo** command to push the files to S3, rather than an AWS S3 command.  This then required a few minor changes to the [hexo repo](https://github.com/paulmarsicloud/hexo-cloudonmymindblog) but after some testing, the code is now being pushed via CircleCI!
+* CircleCI is super neat because it pushes the changes quick and it pushes based on PR - Terraform Cloud you need to merge the change in before can push the infrastructure change, so its a teeny tiny bit more cumbersome
 
 ## Recap
 * Setup Hexo on my local machine; super lightweight and got the feel of it pretty quickly
