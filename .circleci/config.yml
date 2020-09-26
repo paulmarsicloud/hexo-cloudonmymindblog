@@ -2,20 +2,10 @@ version: 2.1
 jobs:
   release:
     docker:
-      - image: paulmarsicloud/hexo-aws:1.0
+      - image: paulmarsicloud/hexo-aws:1.2
     working_directory: ~/hexo-cloudonmymindblog
     steps:
       - checkout
-      - restore_cache:
-          keys:
-            - npm-deps-{{ checksum "package.json" }}
-      - run:
-          name: Install dependencies
-          command: npm install
-      - save_cache:
-          key: npm-deps-{{ checksum "package.json" }}
-          paths:
-            - node_modules
       - run:
           name: Force theme download
           command: git clone https://github.com/paulmarsicloud/hexo-theme-cactus themes/cactus
