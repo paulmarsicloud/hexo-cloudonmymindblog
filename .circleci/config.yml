@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   release:
     docker:
-      - image: paulmarsicloud/hexo-aws:1.4
+      - image: paulmarsicloud/hexo-aws:1.5
     working_directory: ~/hexo-cloudonmymindblog
     steps:
       - checkout
