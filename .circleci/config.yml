@@ -6,6 +6,16 @@ jobs:
     working_directory: ~/hexo-cloudonmymindblog
     steps:
       - checkout
+      - restore_cache:
+          keys:
+            - npm-deps-{{ checksum "package.json" }}
+      - run:
+          name: Install dependencies
+          command: npm install
+      - save_cache:
+          key: npm-deps-{{ checksum "package.json" }}
+          paths:
+            - node_modules
       - run:
           name: Force theme download
           command: git clone https://github.com/paulmarsicloud/hexo-theme-cactus themes/cactus
