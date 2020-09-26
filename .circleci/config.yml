@@ -14,7 +14,7 @@ jobs:
           command: hexo generate
       - run:
           name: Push to S3 bucket
-          command: hexo deploy
+          command: cd public/ && aws s3 sync . s3://www.thecloudonmymind.com
 
 workflows:
     version: 2
