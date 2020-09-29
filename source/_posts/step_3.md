@@ -51,3 +51,5 @@ After reading this cool [artcile](https://hackernoon.com/build-a-serverless-prod
 * Setup Hexo on my local machine; super lightweight and got the feel of it pretty quickly
 * Pushed the local code to a fresh [repo](https://github.com/paulmarsicloud/hexo-cloudonmymindblog) in GitHub - this will be used lots going forward
 * Setup CirclCI to be the de-facto CI/CD pipleline for new blog content changes in future
+
+_Next Post_ : [Engaging custom Docker Images/Containers for faster deployments!](/faster_deploys_with_custom_docker_images)
