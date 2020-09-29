@@ -119,7 +119,7 @@ workflows:
 ```
 
 And now takes around ~30 seconds to deploy. . .not too bad and definitely an improvement! 💪
-![success in lowering deployment times!](/images/1_min_deploys.png)
+![success in lowering deployment times!](/images/30_sec_deploys.png)
 
 
 ## Recap
