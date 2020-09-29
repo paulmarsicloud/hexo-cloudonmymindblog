@@ -72,7 +72,7 @@ So CircleCI spins up a Docker image and then runs the commands from the config a
 
 As a good technologist, rahter than build something entirely from scratch, I looked to see if there were any Docker images that already had Hexo pre-installed.  I found this awesome [image](https://hub.docker.com/r/spurin/hexo) from [James Spurin](https://github.com/spurin) and read this great [article](https://spurin.com/2020/01/04/Creating-a-Blog-Website-with-Docker-Hexo-Github-Free-Hosting-and-HTTPS/) as well, which put the wheels in motion for my next move.  I could have easily used the Spurin Hexo Docker image, but the use-case for that image is clearly more to build the Hexo website _within_ a Docker Container, whereas my use-case was to use a Docker Container to build **and deploy** the Hexo website.
 
-# Building a "custom" Docker Container
+### Building a "custom" Docker Container
 After taking a look at the CircleCI config file, I realized that I need the Docker image to simply do the following:
 * Install Hexo
 * Download the [GitHub](https://github.com/paulmarsicloud/hexo-cloudonmymindblog) repo
