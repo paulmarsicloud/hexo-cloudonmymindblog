@@ -1,6 +1,6 @@
 ---
 title: Faster deployments with custom Docker images
-date: 2020-09-27 19:23:39
+date: 2020-09-29 19:23:39
 tags: 
 - docker
 - containers
