@@ -82,3 +82,5 @@ There are some extra neat terraform tricks in the [repo](https://github.com/paul
 * No HTTPS for custom domain names for S3 website hosting - this is by design
 * ACM to create a certificate
 * Cloudfront to _serve_ the certificate for your S3 website with a custom domain name 💪
+
+_Next Post_ : [AWS Budgets to notify montly blog costs](/aws_budgets_notify_monthly_blog_costs/)
